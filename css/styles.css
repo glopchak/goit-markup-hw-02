@@ -1,6 +1,11 @@
 body {
   font-family: "Roboto", sans-serif;
   letter-spacing: 0.03em;
+  background: #ffffff;
+}
+
+ul {
+  list-style: none;
 }
 
 /*логотип*/
@@ -11,8 +16,14 @@ body {
   line-height: 1.06;
   color: #2196f3;
 }
+.logo:hover {
+  color: #1663a3;
+}
 .studio {
   color: #000000;
+}
+.studio:hover {
+  color: #1663a3;
 }
 
 /*навигация*/
@@ -23,13 +34,25 @@ body {
   letter-spacing: 0.02em;
   color: #212121;
 }
+.site-nav-link:hover,
+.site-nav-link:focus {
+  color: #2196f3;
+}
+.site-nav-link.current {
+  color: #2196f3;
+}
+
 /*контакты хедера*/
-.contact-heder {
+.contact-header {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: #757575;
+}
+.contact-header:hover,
+.contact-header:focus {
+  color: #2196f3;
 }
 
 /*шапка*/
@@ -45,12 +68,14 @@ body {
 /*кнопка "заказ услуги"*/
 
 .butt {
+  background-color: #2196f3;
+  color: #ffffff;
+  cursor: pointer;
   font-weight: bold;
   font-size: 16px;
   line-height: 1.8;
   letter-spacing: 0.06em;
-  color: #ffffff;
-  cursor: pointer;
+  border: none;
 }
 
 /*особенности*/
@@ -91,10 +116,15 @@ body {
   line-height: 1.06;
   color: #2196f3;
 }
+.logo:hover {
+  color: #1663a3;
+}
 .studio-footer {
   color: #ffffff;
 }
-
+.studio-footer:hover {
+  color: #1663a3;
+}
 /*адрес*/
 .address {
   font-size: 14px;
@@ -111,12 +141,18 @@ body {
 
 /*фильтр*/
 .butt-filter {
+  background-color: #f5f4fa;
+  color: #212121;
   cursor: pointer;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
   text-align: center;
-  color: #212121;
+  border: none;
+}
+.butt-filter:hover {
+  color: #ffffff;
+  background-color: #2196f3;
 }
 
 /*проекты*/
