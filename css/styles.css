@@ -16,13 +16,15 @@ ul {
   line-height: 1.06;
   color: #2196f3;
 }
-.logo:hover {
+.logo:hover,
+.logo:focus {
   color: #1663a3;
 }
 .studio {
   color: #000000;
 }
-.studio:hover {
+.studio:hover,
+.studio:focus {
   color: #1663a3;
 }
 
@@ -116,25 +118,37 @@ ul {
   line-height: 1.06;
   color: #2196f3;
 }
-.logo:hover {
+.logo:hover,
+.logo:focus {
   color: #1663a3;
 }
 .studio-footer {
   color: #ffffff;
 }
-.studio-footer:hover {
+.studio-footer:hover,
+.studio-footer:focus {
   color: #1663a3;
 }
+
 /*адрес*/
 .address {
   font-size: 14px;
   line-height: 1.7;
   color: #ffffff;
 }
+.address:hover,
+.address:focus {
+  color: #757575;
+}
+
 .conracr-footer {
   font-size: 14px;
   line-height: 1.7;
   color: rgba(255, 255, 255, 0.6);
+}
+.conracr-footer:hover,
+.conracr-footer:focus {
+  color: #757575;
 }
 
 /*ПОРТФОЛИО*/
@@ -150,7 +164,8 @@ ul {
   text-align: center;
   border: none;
 }
-.butt-filter:hover {
+.butt-filter:hover,
+.butt-filter:focus {
   color: #ffffff;
   background-color: #2196f3;
 }
