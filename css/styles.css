@@ -1,0 +1,108 @@
+body {
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.03em;
+}
+
+/*логотип*/
+
+.logo {
+  font-family: "Raleway";
+  font-size: 26px;
+  line-height: 1.06;
+  color: #2196f3;
+}
+.studio {
+  color: #000000;
+}
+
+/*навигация*/
+.site-nav-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+/*контакты хедера*/
+.contact-heder {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+
+/*шапка*/
+.title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+/*кнопка "заказ услуги"*/
+
+.butt {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.8;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+/*особенности*/
+.section-title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+}
+.list-title {
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+.text {
+  font-size: 14px;
+  line-height: 1/7;
+  color: #757575;
+}
+
+/*наша команда*/
+.future-list-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+}
+.future-text {
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #757575;
+}
+/*логотип футера*/
+.logo {
+  font-family: "Raleway";
+  font-size: 26px;
+  line-height: 1.06;
+  color: #2196f3;
+}
+.studio-footer {
+  color: #ffffff;
+}
+
+/*адрес*/
+.address {
+  font-size: 14px;
+  line-height: 1.7;
+  color: #ffffff;
+}
+.conracr-footer {
+  font-size: 14px;
+  line-height: 1.7;
+  color: rgba(255, 255, 255, 0.6);
+}
