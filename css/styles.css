@@ -28,6 +28,9 @@ body {
 }
 
 /*--------------------------HEADER----------------------------*/
+.header {
+  background-color: var(--main-bckgr-color);
+}
 /*логотип*/
 .header-logo {
   font-family: var(--font-logo);
@@ -71,6 +74,9 @@ body {
 
 /*СТУДИЯ------------------------------------------------------*/
 /*-----------------------------MAIN----------------------------*/
+.hero {
+  background-color: var(--second-bckgr-color);
+}
 .hero-title {
   font-weight: 900;
   font-size: 44px;
@@ -99,6 +105,9 @@ body {
 }
 
 /*особенности*/
+.hero-sect {
+  background-color: var(--main-bckgr-color);
+}
 .hero-sect-title {
   font-size: 14px;
   line-height: 1.14;
@@ -112,6 +121,9 @@ body {
 }
 
 /*чем мы занимаемся*/
+.hero-activity {
+  background-color: var(--main-bckgr-color);
+}
 .title-activity {
   font-weight: 700;
   font-size: 36px;
