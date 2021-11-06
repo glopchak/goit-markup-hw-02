@@ -52,7 +52,7 @@ body {
   color: var(--main-title-color);
 }
 .header-link:hover,
-.header-link :focus {
+.header-link:focus {
   color: var(--accent-color);
 }
 .header-link.current {
