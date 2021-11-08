@@ -32,14 +32,14 @@ body {
   background-color: var(--main-bckgr-color);
 }
 /*логотип*/
-.header-logo {
+.logo {
   font-family: var(--font-logo);
   font-size: 26px;
   line-height: 1.19;
   color: var(--accent-color);
 }
 
-.studio {
+.logo-dark {
   color: var(--first-logo-color);
 }
 
@@ -209,13 +209,8 @@ body {
   background-color: var(--second-bckgr-color);
 }
 /*логотип футера*/
-.footer-logo {
-  font-family: var(--font-logo);
-  font-size: 26px;
-  line-height: 1.19;
-  color: var(--accent-color);
-}
-.footer-logo-studio {
+
+.footer-logo-light {
   color: var(--second-logo-color);
 }
 /*адрес*/
