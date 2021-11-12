@@ -346,11 +346,12 @@ body {
   padding-bottom: 60px;
 }
 /*логотип футера*/
-.footer-logo {
-  margin-bottom: 20px;
-}
+
 .footer-logo-light {
   color: var(--second-logo-color);
+}
+.footer-logo {
+  margin-bottom: 20px;
 }
 /*адрес*/
 .address {
